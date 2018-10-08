@@ -11018,6 +11018,11 @@ span[data-jarallax-element] {
     right: 0;
     top: 0.8rem;
     margin-right: 1.25rem; }
+  .side-nav .fa-angle-down.rotate-icon2 {
+    position: absolute;
+    right: 0;
+    top: 0.8rem;
+    margin-right: 1.25rem; }
   .side-nav .sidenav-bg {
     top: 0;
     bottom: 0;
@@ -11607,6 +11612,14 @@ button.toast-close-button {
   filter: alpha(opacity=40); }
 
 .collapsible .active .rotate-icon {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: all 150ms ease-in 0s;
+  -o-transition: all 150ms ease-in 0s;
+  transition: all 150ms ease-in 0s; }
+
+.collapsible2 .active .rotate-icon2 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
