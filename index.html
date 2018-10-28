@@ -17,7 +17,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body class="fixed-sn cyan-skin">
+    <body class="fixed-sn deep-purple-skin">
 
         <!--Double navigation-->
         <header>
@@ -157,22 +157,38 @@
                 <br>
                 <h5>1. Fixed side menu, hidden on small devices.</h5>
                 <h5>2. Fixed Navbar. It will always stay visible on the top, even when you scroll down.</h5>
-                <form style="color: #757575;">
+                <form  >
                     <div class="md-form">
                         <label for="materialLoginFormEmail">E-mail</label>
                         <input type="email" id="materialLoginFormEmail" class="form-control">
                       </div>
                     <div class="md-form">
-                        <select class="mdb-select" id="materialLoginFormEmails" >
-                            <option value="" selected="">Choose your option</option>
+                        <select class="mdb-select" id="materialLoginFormEmailss" >
+                            <optgroup label="team 1">
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
+                          </optgroup>
+                          <optgroup label="team 2">
                             <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                          </optgroup>
                         </select>                        
                         <label for="materialLoginFormEmails">Example label</label>
                     </div>
+                    
                 </form>
-                
+                <select class="mdb-select md-form" searchable="Search here..">
+  <option value="" disabled selected>Choose your country</option>
+  <optgroup label="PERLIS">
+    <option value="1"> Option 1</option>
+    <option value="2"> Option 2</option>
+  </optgroup>
+  <optgroup label="PERAK">
+    <option value="3"> Option 3</option>
+    <option value="4"> Option 4</option>
+  </optgroup>
+</select>
+<label>Example label</label>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalQuickView">Launch modal</button>
 <!-- Modal: modalQuickView -->
 <div class="modal fade" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
