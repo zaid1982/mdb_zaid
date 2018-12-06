@@ -8,6 +8,8 @@ header("Content-length: ".strlen($image_));
 header("Content-Type: image/jpeg;base64");
 header("Content-Disposition: attachment; filename=Test.jpg"); //disposition of download forces a download
 header("Content-Description: PHP Generated Data");
+header('Expires: 0');
+header('Pragma: public');
 header('Content-Transfer-Encoding: binary');
 
 echo base64_decode($image_); 
